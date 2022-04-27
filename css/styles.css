@@ -1,0 +1,209 @@
+/* body {
+  margin: 0 auto;
+
+} */
+
+.navbar {
+    background: #343638;
+    height: 85px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navbar-brand {
+  width: 5%;
+  margin-left: 2%;
+}
+
+.bill-logo {
+  width: 100%;
+
+}
+
+.bill-logo:hover {
+  opacity: .8;
+}
+
+.nav-link {
+  margin-right: 80px;
+  font-size: 1.2rem;
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+
+.intro {
+  width: 100%;
+  height: 670px;
+  object-fit: cover;
+  overflow: hidden;
+  opacity: .8;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 755px;
+  /* background: rgba(0, 0, 0, 0.6);
+   */
+  background: #633e19;
+  mix-blend-mode: overlay;
+}
+.slogan {
+  position: relative;
+  bottom: 30rem;
+  color: white;
+  width: 100%;
+  text-align: left;
+}
+.slogan h1 {
+  font-size: 3.5rem;
+  position: absolute;
+  left: 6rem;
+}
+
+.slogan p {
+  font-size: 1.8rem;
+  position: absolute;
+  top: 80px;
+  left: 6rem;
+}
+
+.intro-btn {
+  position: absolute;
+  top: 150px;
+  left: 105px;
+  padding: 1% 3%;
+  border: 0;
+}
+
+.intro-btn:hover {
+  background: #6d94c7;
+}
+
+.main {
+  padding: 8% 3%;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.plan {
+  text-align: center;
+  padding: 1% 2.5%;
+}
+
+.plan1 {
+  position: relative;
+  right: 0;
+  bottom: 1.5rem;
+}
+
+.plan-header {
+  background: #FFCF59;
+  border: 1px solid #E3CD99;
+  border-radius: 4px 4px 0 0;
+  /* border-bottom: 1px solid #dee5ef; */
+  padding: 3%;
+}
+.plan-body {
+  /* border: 1px solid #dee5ef; */
+  padding: 0 5% 7%;
+  position: relative;
+  box-shadow: 0 5px 20px -0.8rem;
+  transition: .7s ease-in-out;
+}
+
+h2 {
+  margin: 0 auto;
+  font-family: "Montserrat";
+  /* color: white; */
+
+}
+
+h3 {
+  font-family: sans-serif;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.desc {
+  transition: .3s ease;
+}
+.price {
+  font-size: 3rem;
+  transition: .4s ease-in;
+}
+
+.shop-btn {
+  background: #343638;
+  margin-top: 30px;
+  padding: 3% 0;
+  width: 50%;
+  border: 0;
+}
+
+/* TATTOO IMAGE OVERLAY */
+.tat-img {
+  /* border-radius: 0 0 10px 10px; */
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  overflow: hidden;
+
+  transition: .5s ease;
+
+
+}
+.overlay-main:hover .overlay{
+  bottom: 0;
+  height: 100%;
+  z-index: -1;
+  opacity: .7;
+}
+
+.overlay-main:hover .desc {
+  font-weight: 500;
+  color: white;
+}
+
+.overlay-main:hover .price {
+  font-weight: 500;
+  color: white;
+}
+.overlay-main:hover .plan-body {
+  box-shadow: none;
+}
+
+.shop-btn:hover {
+  background: #327c7b;
+  outline: none;
+}
