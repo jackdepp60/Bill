@@ -235,25 +235,22 @@ h3 {
   .navbar-brand {
     width: 10%;
   }
-  .slogan {
 
-    /* text-align: center; */
-  }
   .slogan h1{
     padding: 1% 10%;
     left: 0;
     right: 0;
-    bottom: 300px;
+    bottom: 380px;
     text-align: center;
   }
   .slogan .tagline {
-    bottom: 150px;
+    bottom: 260px;
     text-align: center;
     left: 1rem;
     font-size: 2.3rem;
   }
   .intro-btn {
-    top: 600px;
+    top: 470px;
     padding: 3% 0;
     right: 6rem;
   }
