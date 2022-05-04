@@ -20,7 +20,10 @@
   /* margin-top: 5%; */
   margin-left: 145px;
 }
-
+.nav-link {
+  scroll-behavior: smooth;
+  transition: .4s ease;
+}
 .navbar {
     background: #343638;
     height: 85px;
